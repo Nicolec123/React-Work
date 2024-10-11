@@ -1,0 +1,21 @@
+/* Reset de margens e espaçamentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Garante que o body ocupe a altura total da tela */
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;/* Faz com que o container principal ocupe a altura da tela */
+}
+
+.min-height {
+    flex: 1; /* O conteúdo principal irá se expandir para ocupar o espaço disponível */
+}
