@@ -21,8 +21,11 @@
     "backend": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+    "homepage": "https://Nicolec123.github.io/React-Work",
   "eslintConfig": {
     "extends": [
       "react-app",
